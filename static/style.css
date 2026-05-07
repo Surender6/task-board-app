@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Smooth animations */
+button,
+input,
+.task-card {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Better scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Progress bar animation */
+#progressBar {
+    transition: width 0.3s ease;
+}
